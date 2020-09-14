@@ -34,6 +34,13 @@ body {
     align-items: center;
 }
 
+.item i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+}
+
 .message {
     border: 1px solid grey;
     color: grey;
@@ -49,4 +56,17 @@ body {
 .message.success {
     border-color: green;
     color: green;
+}
+
+.menu {
+    margin: 15px 0;
+}
+
+.menu a {
+    color: grey;
+    text-decoration: none;
+}
+
+.menu a.active {
+    color: darkGreen;
 }
